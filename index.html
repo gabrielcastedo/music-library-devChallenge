@@ -1,14 +1,196 @@
-Search artists, playlists or tracks
-Dany Schudler
-Edit Profile
-Overview
-News
-Playlists
-Discover
-Dashboard
-Messages
-Notifications
-Account
-Featured Playlists
-Profile Views
-Tracks
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+</head>
+<body>
+    <section class = "barraEsquerda">
+        <div class = "perfil"> 
+            <div class = "barra">
+                <figure id = fotoPerfil>
+                    <img src="assets/profile.jpg"/ class = "fotoPerfil1">
+                </figure>
+            </div>
+            <div class = "nomeProfile">
+                <h2 class = "nome"> Dany Schudler</h2>
+                <p class = "profile">Edit Profile</p>
+            </div>
+        </div>
+        <div class = "menu">
+            <div class = "lista1" >
+                <ul id = "listaEdicao">
+                    <li>Overview</li>
+                    <li>News</li>
+                    <li>Playlists</li>
+                    <li>Discover</li>
+                </ul>
+            </div>
+            <div class = "lista2">
+                <ul id = "listaAccount">
+                    <li>Dashboard</li>
+                    <li>Messages</li>
+                    <li>Notifications</li>
+                    <li>Account</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class = "barraDireita">
+        <div id = "search">
+            <input type="text" id="txtBusca" placeholder="Search artists, playlists or tracks"/>
+        </div>
+        <div id = "playlist">
+            <h2>Featured Playlists</h2>
+
+            <section id = "paiCards">
+                <div class = "cardsFeatured">
+                    <figure>
+                        <img src="assets/playlist1.jpg"/>
+                    </figure>
+                    <h3 class = "nomePlaylist"> Only STARDUST</h3>
+                    <p>24 tracks</p>
+                </div>
+                <div class = "cardsFeatured">
+                    <figure>
+                        <img src="assets/playlist2.jpg"/>
+                    </figure>
+                    <h3 class = "nomePlaylist"> Mike Vella</h3>
+                    <p>12 tracks</p>
+                </div>
+                <div class = "cardsFeatured">
+                    <figure>
+                        <img src="assets/playlist3.jpg"/>
+                    </figure>
+                    <h3 class = "nomePlaylist"> the best singles s2</h3>
+                    <p>163 tracks</p>
+                </div>
+                <div class = "cardsFeatured">
+                    <figure>
+                        <img src="assets/playlist4.jpg"/>
+                    </figure>
+                    <h3 class = "nomePlaylist"> Indie</h3>
+                    <p>138 tracks</p>
+                </div>
+            </section>
+        </div>
+
+        <div id = "baixoPagina">
+            <div class = "profileViews">
+                <h2>Profile Views</h2>
+
+                <div class = "miniCards">
+                    <div >
+                        <figure>
+                            <img src="/assets/view1.jpg"/>
+                        </figure>
+                    </div>
+                    <div class = "artistaAlbum">
+                        <article>
+                            <h4>Jenny Villa</h4>
+                            <p>1 day ago</p>
+                        </article>
+                        <article>
+                            <p>4 albums</p>
+                        </article>    
+                    </div>
+                </div>
+                <div class = "miniCards">
+                    <div >
+                        <figure>
+                            <img src="/assets/view2.jpg"/>
+                        </figure>
+                    </div>
+                    <div class = "artistaAlbum">
+                        <article>
+                            <h4>Aquila</h4>
+                            <p>3 days Ago</p>
+                        </article>
+                        <article>
+                            <p>2 albums</p>
+                        </article>    
+                    </div>
+                </div>
+                <div class = "miniCards">
+                    <div >
+                        <figure>
+                            <img src="/assets/view3.jpg"/>
+                        </figure>
+                    </div>
+                    <div class = "artistaAlbum">
+                        <article>
+                            <h4>This War</h4>
+                            <p>2 weeks ago</p>
+                        </article>
+                        <article>
+                            <p>5 albums</p>
+                        </article>    
+                    </div>
+                </div>
+            </div>
+
+            <div class = "tracks">
+                <h2>Tracks </h2>
+                <section id = "secaoTracks">
+                    <div class = "cardsTracks">
+                        <figure>
+                            <img src="/assets/track1.jpg"/>
+                        </figure>
+                        <h3 class = "nomeTracks"> Mahara Bon</h3>
+                        <p>Sexy in Paris</p>
+                    </div>
+                    <div class = "cardsTracks">
+                        <figure>
+                            <img src="/assets/track2.jpg"/>
+                        </figure>
+                        <h3 class = "nomeTracks">Donna</h3>
+                        <p>Pseudo-life</p>
+                    </div>
+                    <div class = "cardsTracks">
+                        <figure>
+                            <img src="/assets/track3.jpg"/>
+                        </figure>
+                        <h3 class = "nomeTracks">Avven</h3>
+                        <p>Magic</p>
+                    </div>
+                    <div class = "cardsTracks">
+                        <figure>
+                            <img src="/assets/track4.jpg"/>
+                        </figure>
+                        <h3 class = "nomeTracks">Conny Matt</h3>
+                        <p>Living in Hell</p>
+                    </div>
+                    <div class = "cardsTracks">
+                        <figure>
+                            <img src="/assets/track5.jpg"/>
+                        </figure>
+                        <h3 class = "nomeTracks">Claudia Cany</h3>
+                        <p>Remember</p>
+                    </div>
+                    <div class = "cardsTracks">
+                        <figure>
+                            <img src="/assets/track6.jpg"/>
+                        </figure>
+                        <h3 class = "nomeTracks">Samm</h3>
+                        <p>Same-Huly</p>
+                    </div>
+                    <div class = "cardsTracks">
+                        <figure>
+                            <img src="/assets/track7.jpg"/>
+                        </figure>
+                        <h3 class = "nomeTracks">Pacify</h3>
+                        <p>Portrail</p>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
+
+
+
